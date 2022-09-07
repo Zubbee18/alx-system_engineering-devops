@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -Rla | find -type d -wholename "./*" | cat | wc -l
