@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | cut -c 29- | sort -nr | cut -c 14- | head 
+ls -lt |grep -v ^[d] | cut -c 42- | head -11 
