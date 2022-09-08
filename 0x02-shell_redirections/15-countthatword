@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -Rinw //etc/passwd -e "bin" | less | wc -l
