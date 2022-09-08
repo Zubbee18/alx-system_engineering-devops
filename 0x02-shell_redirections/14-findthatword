@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo grep -Rinw /etc/passwd -e "root" 
+sudo grep -Rinw /etc/passwd -e "root" | less
