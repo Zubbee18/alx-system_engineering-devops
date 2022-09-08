@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt |grep -v ^[d] | cut -c 42- | head -11 
+ls -lt |tail +2 | grep -v ^[d] | cut -c 42- | head
